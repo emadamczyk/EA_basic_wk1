@@ -197,10 +197,18 @@ input[type=submit]:hover  {
 
   .gallery {
     width: 300px;
-    height: 200px;
-
-    
+    height: 200px; 
   }
+
+  .gallery-head h3 {
+    background-color: #4aaaa5;
+    color: #fff;
+    line-height: 50px;
+    width: 300px;
+    padding: 0 30px;
+    text-align: center;
+  }
+
 figure {
   display: block;
   margin: 0;
@@ -238,3 +246,16 @@ figure {
     left: 0;
   }
 
+#gallery-1 {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  z-index: 2;
+}
+
+#gallery-2 {
+  position: absolute;
+  top: 125px;
+  left: 330px;
+  z-index: 2;
+}
