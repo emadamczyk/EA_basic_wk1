@@ -1,128 +1,124 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: #777;
-    border-right: solid #777 1px;
-    padding: 0 10px;
-  }
-
-  nav a:hover {
-    color: #4aaaa5;
-  }
-  
-  a:last-child {
-      border-right: none;
-      padding-right: 0;
-  }
-
-  body {
-    width: 100%;
-    margin: 0;
-    background-color: gold;
-    
-  }
-
-.content {
-    min-height: calc(100vh - 50px);
-    background-image: url(../images/concrete_seamless.png);
-    background-color: lightgrey;
+  box-sizing: border-box;
 }
   
-  .head-container {
-      width: 100%;
-      height: 100px;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-  }
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  border-right: solid #777 1px;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  color: #4aaaa5;
+}
+  
+a:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  background-color: gold;
+}
+
+.content {
+  min-height: calc(100vh - 50px);
+  background-image: url(../images/concrete_seamless.png);
+  background-color: lightgrey;
+}
+  
+.head-container {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
 
   
-  .head-wrapper {
-    background-color: #ffffff;
-    border-color: #ccc;
-    width: 960px;
-    margin: 0;
-    padding: 0;
-    margin: 0 auto;
-    color: #4aaaa5; 
-    height: 100px;
-  }
+.head-wrapper {
+  background-color: #ffffff;
+  border-color: #ccc;
+  width: 960px;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  color: #4aaaa5; 
+  height: 100px;
+}
   
-  header h2 {
-    background-color: #4aaaa5;
-    color: #fff;
-    float: left;
-    line-height: 100px;
-    margin: 0;
-    padding: 0 30px;
+header h2 {
+  background-color: #4aaaa5;
+  color: #fff;
+  float: left;
+  line-height: 100px;
+  margin: 0;
+  padding: 0 30px;  
+}
+
+.header-links {
+  float: right;
+  padding: 40px 0;
+  color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+}
     
-  }
+a.header-links {
+  border-right: solid 
+}
 
-  .header-links {
-    float: right;
-    padding: 40px 0;
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-    
-  a.header-links {
-    border-right: solid 
-  }
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 150%;
+  color: #777;  
+}
 
-  p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    line-height: 150%;
-    color: #777;
-    
-  }
-
-  label {
-      font-family: Arial, Helvetica, sans-serif;
-      color: #777;
-  }
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+}
   
-  .main-container {
-    width: 100%;
-    margin: 0;
-    padding: 30px;
-    min-height: 100%;
-  }
+.main-container {
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  min-height: 100%;
+}
   
- .main-wrapper {
-    width: 960px;
-    margin: 0 auto;
-    padding: 10px 30px;
-    background-color: #fff;
-    border: solid #ddd 1px;
-  }
+.main-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: solid #ddd 1px;
+}
   
-  #about {
-    border-bottom: solid lightslategray 2px;
-    color: #4aaaa5;
-    margin-bottom: 20px;
- }
+#about {
+  border-bottom: solid lightslategray 2px;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+}
   
- #contact {
-    border-bottom: solid lightslategray 2px;
-    color: #4aaaa5;
-    margin-bottom: 20px;
- }
+#contact {
+  border-bottom: solid lightslategray 2px;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+}
 
- #portfolio {
-    border-bottom: solid lightslategray 2px;
-    color: #4aaaa5;
-    margin-bottom: 20px;
- }
+#portfolio {
+  border-bottom: solid lightslategray 2px;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+}
 
-  #main-bio,
-  #form-container,
-  #portfolio-images {
-      margin: 5px 0;
-  }
+#main-bio,
+#form-container {
+  margin: 5px 0;
+}
 
   /* old code -- not used in current version
   #portfolio-images {
@@ -133,38 +129,38 @@
     border: solid rgb(97, 39, 39) 1px;
   } */
 
-  #bio-image {
-    float: left;
-    margin: 5px 20px 5px 0;
-    height: 150px;
-  }
+#bio-image {
+  float: left;
+  margin: 5px 20px 5px 0;
+  height: 150px;
+}
 
-  footer {
-    width: 100%;
-    text-align: center;
-    padding: 0px;
-    border-top: solid #4aaaa5 5px;
-    font-size: .5em;
-    clear: both;
-    background-color: #666;
-    height: 50px;
-  }
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  border-top: solid #4aaaa5 5px;
+  font-size: .5em;
+  clear: both;
+  background-color: #666;
+  height: 50px;
+}
 
 footer p {
-      color: #ddd;
-      margin-top: 30px;
-  }
+  color: #ddd;
+  margin-top: 30px;
+}
   
-  /* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color and hover etc */
@@ -181,15 +177,6 @@ input[type=submit]:hover  {
     background-color: #777;
 }
 
-/* #hangman,
-#rpg,
-#trivia,
-#rutgers,
-#rock-paper-scissors    {
-    width: 33%;
-    margin: 0 30px 40px 0;
-} */
-
 .gallery-images {
   position: relative;
   width: 900px;
@@ -198,29 +185,29 @@ input[type=submit]:hover  {
   /* border: solid pink 1px; */ /*to test border of the bounding box */
 }
 
-  .gallery {
-    width: 300px;
-    height: 200px; 
-  }
+.gallery {
+  width: 300px;
+  height: 200px; 
+}
 
-  .gallery-head h3 a {
-    background-color: #4aaaa5;
-    color: #fff;
-    line-height: 50px;
-    width: 300px;
-    padding: 0 30px;
-    text-align: center;
-  }
+.gallery-head h3 a {
+  background-color: #4aaaa5;
+  color: #fff;
+  line-height: 50px;
+  width: 300px;
+  padding: 0 30px;
+  text-align: center;
+}
   
   /* .gallery-head a:visited, a:active {
     color: #fff;
   } unnecessary */
 
-  .gallery-head a:hover {
-    color: #4aaaa5;
-    background-color: #fff;
-    margin: auto;
-  }
+.gallery-head a:hover {
+  color: #4aaaa5;
+  background-color: #fff;
+  margin: auto;
+}
   
 figure {
   display: block;
@@ -234,31 +221,29 @@ figure {
   left: 0;
 }
 
-  #box-2 {
-    position: absolute;
-    top: 0;
-    left: 330px;
-    
-  }
+#box-2 {
+  position: absolute;
+  top: 0;
+  left: 330px;  
+}
 
-  #box-3 {
-    position: absolute;
-    top: 250px;
-    left: 0;
-  
-  }
+#box-3 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
 
-  #box-4 {
-    position: absolute;
-    top: 250px;
-    left: 330px;
-  }
+#box-4 {
+  position: absolute;
+  top: 250px;
+  left: 330px;
+}
 
-  #box-5 {
-    position: absolute;
-    top: 500px;
-    left: 0;
-  }
+#box-5 {
+  position: absolute;
+  top: 500px;
+  left: 0;
+}
 
 #gallery-1 {
   position: absolute;
