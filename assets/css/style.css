@@ -5,11 +5,12 @@
   a {
     display: inline-block;
     text-decoration: none;
+    color: #777;
     border-right: solid #777 1px;
     padding: 0 10px;
   }
 
-  a:hover {
+  nav a:hover {
     color: #4aaaa5;
   }
   
@@ -123,13 +124,14 @@
       margin: 5px 0;
   }
 
+  /* old code -- not used in current version
   #portfolio-images {
     width: 900px;
     margin: 0 auto;
     padding: 10px 30px;
     background-color: #fff;
     border: solid rgb(97, 39, 39) 1px;
-  }
+  } */
 
   #bio-image {
     float: left;
@@ -191,16 +193,16 @@ input[type=submit]:hover  {
   position: relative;
   width: 900px;
   margin: 0 auto 40px;
-  /* background: #fff; */
-  border: solid pink 1px;
-  }
+  background: #fff;
+  /* border: solid pink 1px; */ /*to test border of the bounding box */
+}
 
   .gallery {
     width: 300px;
     height: 200px; 
   }
 
-  .gallery-head h3 {
+  .gallery-head h3 a {
     background-color: #4aaaa5;
     color: #fff;
     line-height: 50px;
@@ -208,11 +210,22 @@ input[type=submit]:hover  {
     padding: 0 30px;
     text-align: center;
   }
+  
+  /* .gallery-head a:visited, a:active {
+    color: #fff;
+  } unnecessary */
 
+  .gallery-head a:hover {
+    color: #4aaaa5;
+    background-color: #fff;
+    margin: auto;
+  }
+  
 figure {
   display: block;
   margin: 0;
 }
+
 
 #box-1 {
   position: absolute;
@@ -257,5 +270,26 @@ figure {
   position: absolute;
   top: 125px;
   left: 330px;
+  z-index: 2;
+}
+
+#gallery-3 {
+  position: absolute;
+  top: 375px;
+  left: 0;
+  z-index: 2;
+}
+
+#gallery-4 {
+  position: absolute;
+  top: 375px;
+  left: 330px;
+  z-index: 2;
+}
+
+#gallery-5 {
+  position: absolute;
+  top: 625px;
+  left: 0;
   z-index: 2;
 }
